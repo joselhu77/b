@@ -35,6 +35,7 @@ h2{
     padding: 5px;
     margin: 5px 0px;
     border-radius: 15px;
+
 }
 
 .img-op {
@@ -54,4 +55,6 @@ h2{
 
 }
 
-a {}
+.kjkh{
+    background-color: #000000c2;
+}
