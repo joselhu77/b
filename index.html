@@ -1,109 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <!-- Meta etiquetas básicas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typed.js</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png">
 
-    <!-- Título de la página -->
-    <title>Lhuis</title>
 
-    <!-- Descripción meta -->
-    <meta name="description" content="lhuis">
 
-    <!-- Palabras clave (no muy relevante hoy en día para SEO, pero aún útil para algunos buscadores) -->
-    <meta name="keywords" content="lhuis">
 
-    <!-- Autor -->
-    <meta name="author" content="lhuis">
 
-    <!-- Open Graph para redes sociales -->
-    <meta property="og:title" content="lhuis">
-    <meta property="og:description" content="lhuis">
-    <meta property="og:image" content="https://res.cloudinary.com/dzbqey29h/image/upload/v1716936115/xxxxxxx_fhv1jr.png">
-    <meta property="og:url" content="https://joselhu77.github.io/b/">
+
+
+
+    <link rel="canonical" href="http://bit.ly/lhuisruiz">
+    <meta property="og:site_name" content="lhuis ruiz Fotografo">
+    <meta property="og:title" content="lhuis ruiz Fotografo">
+    <meta property="og:url" content="http://bit.ly/lhuisruiz">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="https://joselhu77.github.io/b/">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/fotoqe123/image/upload/v1716849610/ABAUT/about-img_jicci8_ud4ksc_sggmtq.png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="683">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="lhuis">
-    <meta name="twitter:description" content="lhuis">
-    <meta name="twitter:image" content="https://res.cloudinary.com/dzbqey29h/image/upload/v1716936115/xxxxxxx_fhv1jr.png">
-
-    <!-- Favicon -->
-    <link rel="icon" href="https://res.cloudinary.com/dzbqey29h/image/upload/v1716936115/xxxxxxx_fhv1jr.png" type="image/x-icon">
-
-    <!-- Hojas de estilo CSS -->
-    <link rel="stylesheet" href="style.css">
+    <meta itemprop="name" content="lhuis ruiz Fotografo">
+    <meta itemprop="url" content="http://bit.ly/lhuisruiz">
+    <meta itemprop="thumbnailUrl"
+        content="https://res.cloudinary.com/fotoqe123/image/upload/v1716849610/ABAUT/about-img_jicci8_ud4ksc_sggmtq.png">
+    <meta name="twitter:title" content="lhuis ruiz Fotografo">
+    <meta name="twitter:image"
+        content="https://res.cloudinary.com/fotoqe123/image/upload/v1716849610/ABAUT/about-img_jicci8_ud4ksc_sggmtq.png">
+    <meta name="twitter:url" content="http://bit.ly/lhuisruiz">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content>
 
 
-    <!-- Indexación y seguimiento -->
-    <meta name="robots" content="index, follow">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://joselhu77.github.io/b/">
 
-    <!-- Otros metadatos SEO (si es necesario) -->
-    <meta name="theme-color" content="#d30000;
-">
 
-    <!-- SweetAlert2 -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
 </head>
 
 <body>
     <div class="v">
-        <h2>Elija una opción de regalo ❤️</h2>
-        <div class="l">
-            <a href="https://wa.link/uxshml" target="_blank">
-                <button class="bt-1">Sesión de fotos, retratos y urbanos</button>
-            </a>
-            <img class="img-op" src="https://img.freepik.com/fotos-premium/fotografo-toma-imagenes-contexto-vegetacion-vista-frontal-pulgares-arriba_134398-7133.jpg" onclick="fotos();" alt="Foto Sesión">
-        </div>
-        <div class="l">
-            <a href="https://wa.link/br7k2i" target="_blank">
-                <button class="bt-1">Picnic salida a Panamericana</button>
-            </a>
-            <img class="img-op" src="https://as1.ftcdn.net/v2/jpg/02/91/03/56/1000_F_291035690_NWP2qkCK4oEmaedQgMzNCSxsCIP58x7L.jpg" onclick="picnic();" alt="Picnic">
-        </div>
+        <h2>Elija una opcion de regalo ❤️ </h2>
+        <a href="https://wa.link/uxshml" target="_blank">
+            <div class="l"><button class="bt-1">Sesion de fotos, retratos y urbanos</button>
+        </a> <img class="img-op"
+            src="https://img.freepik.com/fotos-premium/fotografo-toma-imagenes-contexto-vegetacion-vista-frontal-pulgares-arriba_134398-7133.jpg"
+            onclick="fotos();" alt="">
     </div>
-
-    <script>
-        function fotos() {
-            Swal.fire({
-                imageUrl: 'https://img.freepik.com/fotos-premium/fotografo-toma-imagenes-contexto-vegetacion-vista-frontal-pulgares-arriba_134398-7133.jpg',
-                title: "Sesión de fotos",
-                imageWidth: true,
-                imageHeight: true,
-                padding: '1rem',
-                showCloseButton: true,
-                showConfirmButton: false,
-                backdrop: '#000000c2',
-                background: '#cecece',
-                color: "#000"
-            });
-        }
-
-        function picnic() {
-            Swal.fire({
-                imageUrl: 'https://as1.ftcdn.net/v2/jpg/02/91/03/56/1000_F_291035690_NWP2qkCK4oEmaedQgMzNCSxsCIP58x7L.jpg',
-                title: "Picnic salida",
-                imageWidth: true,
-                imageHeight: true,
-                padding: '1rem',
-                showCloseButton: true,
-                showConfirmButton: false,
-                backdrop: '#000000c2',
-                background: '#cecece',
-                color: "#000"
-            });
-        }
-    </script>
+    <a href="https://wa.link/br7k2i" target="_blank">
+        <div class="l"><button class="bt-1">picnic salida a panamericana</button>
+    </a><img class="img-op"
+        src="https://as1.ftcdn.net/v2/jpg/02/91/03/56/1000_F_291035690_NWP2qkCK4oEmaedQgMzNCSxsCIP58x7L.jpg"
+        onclick="picnic();" alt=""></div>
+    </div>
 </body>
+
+<script>
+    function fotos() {
+        Swal.fire({
+            imageUrl: 'https://img.freepik.com/fotos-premium/fotografo-toma-imagenes-contexto-vegetacion-vista-frontal-pulgares-arriba_134398-7133.jpg',
+            title: "Sesion de fotos",
+            //tamaño
+            imageWidth: true,
+            imageHeight: true,
+
+            //cerrar
+            padding: '1rem',
+            showCloseButton: true,
+            showConfirmButton: false,
+            backdrop: `
+                rgb(54 54 54 / 58%)  `,
+            background: ' #1f1f1f',
+            color:"#fff",
+        })
+    }
+    function picnic() {
+        Swal.fire({
+            imageUrl: 'https://as1.ftcdn.net/v2/jpg/02/91/03/56/1000_F_291035690_NWP2qkCK4oEmaedQgMzNCSxsCIP58x7L.jpg',
+            title: "Picnick salida",
+            //tamaño
+            imageWidth: true,
+            imageHeight: true,
+
+            //cerrar
+            padding: '1rem',
+            showCloseButton: true,
+            showConfirmButton: false,
+            backdrop: `
+                rgb(54 54 54 / 58%)  `,
+            background: ' #1f1f1f',
+            color:"#fff",
+        })
+    }
+</script>
+<!-------alertas js--------->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </html>
