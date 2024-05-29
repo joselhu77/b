@@ -10,6 +10,7 @@
 }
 
 body {
+    background-color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -75,7 +76,7 @@ h3 {
 h2 {
     margin: 0px;
     text-align: center;
-    font-family: "ariel Cursive", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: normal;
 }
@@ -220,4 +221,7 @@ p {
     height: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 19px #000000;
+
 }
