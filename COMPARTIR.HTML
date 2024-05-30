@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="shareBtn">Compartir Fotos</button>
+    <button id="shareBtn2">Compartir Fotos</button>
+
+    <script>
+        const shareBtn = document.getElementById('shareBtn');
+        shareBtn.addEventListener('click', event => {
+            if (navigator.share) {
+                navigator.share({
+                    text: 'Please read this great article: ',
+                    url: 'https://bit.ly/3V9MXge'
+                }).then(() => {
+                    console.log('Thanks for sharing!');
+                }).catch((err) => console.error(err));
+            } else {
+                alert("The current browser does not support the share function. Please, manually share the link");
+            }
+        });
+
+        const shareBtn2 = document.getElementById('shareBtn2');
+        shareBtn2.addEventListener('click', event => {
+            if (navigator.share) {
+                navigator.share({
+                    text: 'Please read this great article: ',
+                    url: 'https://bit.ly/3V9MXge'
+                }).then(() => {
+                    console.log('Thanks for sharing!');
+                }).catch((err) => console.error(err));
+            } else {
+                alert("The current browser does not support the share function. Please, manually share the link");
+            }
+        });
+    </script>
+</body>
+
+<style>
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    button {
+        width: 400px;
+        height: 50px;
+        background: #000;
+        color: aliceblue;
+        margin-top: 5px;
+        border: none;
+        border-radius: 10px;
+
+    }
+</style>
+
+</html>
